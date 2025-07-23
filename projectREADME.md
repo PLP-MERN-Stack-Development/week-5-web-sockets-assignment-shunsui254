@@ -2,6 +2,12 @@
 
 A fully-featured real-time chat application built with Socket.io, React, and Express.js that demonstrates bidirectional communication, live messaging, notifications, and advanced chat features.
 
+## 🌐 Live Demo
+
+**🚀 Try it now:** [https://socketio-chat-client-plum.vercel.app/](https://socketio-chat-client-plum.vercel.app/)
+
+**📊 Server Status:** [https://socketio-chat-server-p8q5.onrender.com](https://socketio-chat-server-p8q5.onrender.com)
+
 ## 📋 Table of Contents
 
 - [Features](#features)
@@ -234,6 +240,15 @@ socketio-chat/
 6. **Feature Rich**: Comprehensive chat features including reactions, file sharing, and notifications
 
 ## 🚀 Deployment
+
+### 🌐 Live Application
+
+**Try the live application here:**
+
+🔗 **Client (Frontend)**: [https://socketio-chat-client-plum.vercel.app/](https://socketio-chat-client-plum.vercel.app/)  
+🔗 **Server (Backend)**: [https://socketio-chat-server-p8q5.onrender.com](https://socketio-chat-server-p8q5.onrender.com)
+
+The application is fully deployed and ready to use! Open the client URL to start chatting.
 
 ### Server Deployment (Render/Railway/Heroku)
 1. Create a new service on your chosen platform
