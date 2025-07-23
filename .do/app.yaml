@@ -1,0 +1,27 @@
+name: socketio-chat
+services:
+- name: api
+  source_dir: /server
+  github:
+    repo: your-username/your-repo
+    branch: main
+  run_command: node server.js
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  envs:
+  - key: NODE_ENV
+    value: production
+  - key: PORT
+    value: "8080"
+- name: web
+  source_dir: /client
+  github:
+    repo: your-username/your-repo
+    branch: main
+  build_command: npm run build
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  routes:
+  - path: /

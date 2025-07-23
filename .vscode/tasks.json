@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Chat Application",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"Start-Process powershell -ArgumentList '-NoExit', '-Command', 'cd server; npm run dev' -WindowStyle Normal; Start-Process powershell -ArgumentList '-NoExit', '-Command', 'cd client; npm run dev' -WindowStyle Normal"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
